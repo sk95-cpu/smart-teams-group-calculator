@@ -1,3 +1,4 @@
+import math
 print("Choose the application :From Below list\n 1 for Addition \t 2 for Subtraction\t 3 for Multipication \t 4 for Division \t and 5 for Square Root")
 # recieve the input form user
 # we can use a catch case statement or if statement for menue selection
@@ -20,3 +21,20 @@ print("Choose the application :From Below list\n 1 for Addition \t 2 for Subtrac
 #  5:- if the user input 5 the user should enter one  numbers to get the sqaure root of the entered number 
     #check if the user enter a number not text and symbols
     # print the sqaure root  of  the number
+print("You Slect 5 Enter the num to get its Square Root\n")
+num=  int(input("Enter a number to get its Square Root\n")) 
+print ("You Entered ",+ num)
+if num>0 :
+    result = math.sqrt(num)
+    print("The Squar Root is\n ",+result)
+elif num<0:
+    print("The number can not be minus\n")
+else:
+    print("Please Enter a Number\n")
+
+    
+    
+
+
+
+ 
