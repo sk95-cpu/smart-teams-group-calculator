@@ -21,14 +21,14 @@ print("Choose the application :From Below list\n 1 for Addition \t 2 for Subtrac
 #  5:- if the user input 5 the user should enter one  numbers to get the sqaure root of the entered number 
     #check if the user enter a number not text and symbols
     # print the sqaure root  of  the number /// ****Mohammad Adeli****
-print("You Slect 5 Enter the num to get its Square Root\n")
+print("You Slect 5 its Square Root\n")
 num=  int(input("Enter a number to get its Square Root\n")) 
 print ("You Entered ",+ num)
 if num>0 :
     result = math.sqrt(num)
     print("The Squar Root is\n ",+result)
 elif num<0:
-    print("The number can not be minus\n")
+    print("The number can not be negative\n")
 else:
     print("Please Enter a Number\n")
 
