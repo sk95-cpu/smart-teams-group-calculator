@@ -29,32 +29,29 @@ import math
 
 
 for i in range (1,5):
-    print("Choose the application :From Below list\n 1 for Addition \t 2 for Subtraction\t 3 for Multipication \n\t 4 for Division \t and 5 for Square Root")
+    print("Choose the application :From Below list\n 1 for Addition \t 2 for Subtraction\t 3 for Multipication \n 4 for Division \t and 5 for Square Root")
     i =int(input("Enter your choice from 1 to 5 ")) 
-    
     if i ==1:
-         print("addition +")
-         print("enter the first number")
-         print("enter the second number")
-         break
+         print("your chioce is addition (+)")
+         num1 = float(input("Enter the first number: "))
+         num2 = float(input("Enter the second number: "))
+         result = num1 + num2
+         print("num1 + num2 equals:", num1, "+", num2, "=", result)
     if i==2:
-        print("Subtraction -")
+        print("Subtraction (-)")
         print("enter the first number")
         print("enter the second number")
-        break
     if i==3:
-        print("Multipication")
+        print("Multipication (*)")
         print("enter the first number")
         print("enter the second number")
-        break
     if i==4:
-        print("division")
+        print("division (/)")
         print("enter the first number")
         print("enter the second number")
-        break
     if i==5:
-        print("You Slect 5 its Square Root\n")
-        num=  int(input("Enter a number to get its Square Root\n")) 
+        print("Square Root\n")
+        num=  float(input("Enter a number to get its Square Root\n")) 
         print ("You Entered ",+ num)
         if num>0 :
             
@@ -63,7 +60,7 @@ for i in range (1,5):
         elif num<0:
                 print("The number can not be negative\n")
         else:
-                print("Please Enter a Number\n")
+                print("Please Enter a Number between 1-5\n")
     else :
         break
 
