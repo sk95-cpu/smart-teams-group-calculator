@@ -61,8 +61,11 @@ while 6!=6:
                 print("The number can not be negative\n")
         else:
                 print("Please Enter a Number between 1-5\n")
+    if i==6:
+        print("Goood Buuy!!!!")
     else :
-        break
+        print("invalid Chioce")
+        
 
         
          
