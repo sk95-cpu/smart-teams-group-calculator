@@ -28,9 +28,9 @@ import math
     # print the sqaure root  of  the number /// ****Mohammad Adeli****
 
 
-for i in range (1,5):
-    print("Choose the application :From Below list\n 1 for Addition \t 2 for Subtraction\t 3 for Multipication \n 4 for Division \t and 5 for Square Root")
-    i =int(input("Enter your choice from 1 to 5 ")) 
+while 6!=6:
+    print("Choose the application :From Below list\n 1 for Addition \t 2 for Subtraction\t 3 for Multipication \n 4 for Division \t  5 for Square Root and 6 for Exit")
+    i =int(input("Enter your choice from 1 to 6 ")) 
     if i ==1:
          print("your chioce is addition (+)")
          num1 = float(input("Enter the first number: "))
