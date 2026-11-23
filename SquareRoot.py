@@ -27,29 +27,29 @@ import math
     #check if the user enter a number not text and symbols
     # print the sqaure root  of  the number /// ****Mohammad Adeli****
 
-
-while 6!=6:
+Choice=0
+while Choice!=6:
     print("Choose the application :From Below list\n 1 for Addition \t 2 for Subtraction\t 3 for Multipication \n 4 for Division \t  5 for Square Root and 6 for Exit")
-    i =int(input("Enter your choice from 1 to 6 ")) 
-    if i ==1:
+    Choice =int(input("Enter your choice from 1 to 6 ")) 
+    if Choice ==1:
          print("your chioce is addition (+)")
          num1 = float(input("Enter the first number: "))
          num2 = float(input("Enter the second number: "))
          result = num1 + num2
          print("num1 + num2 equals:", num1, "+", num2, "=", result)
-    if i==2:
+    elif Choice==2:
         print("Subtraction (-)")
         print("enter the first number")
         print("enter the second number")
-    if i==3:
+    elif Choice==3:
         print("Multipication (*)")
         print("enter the first number")
         print("enter the second number")
-    if i==4:
+    elif Choice==4:
         print("division (/)")
         print("enter the first number")
         print("enter the second number")
-    if i==5:
+    elif Choice==5:
         print("Square Root\n")
         num=  float(input("Enter a number to get its Square Root\n")) 
         print ("You Entered ",+ num)
@@ -61,7 +61,7 @@ while 6!=6:
                 print("The number can not be negative\n")
         else:
                 print("Please Enter a Number between 1-5\n")
-    if i==6:
+    elif Choice==6:
         print("Goood Buuy!!!!")
     else :
         print("invalid Chioce")
